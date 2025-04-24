@@ -33,6 +33,7 @@ def evaluate_model(y_test, y_pred, y_pred_proba, model_name="Model"):
     }
     plot_confusion_matrix(y_test, y_pred, model_name)
     print(classification_report(y_test, y_pred))
+    print("roc_auc: ", roc_auc)
     
     return metrics
 
@@ -61,27 +62,40 @@ def evaluate_nn(model, test_loader, device, threshold=0.5):
     
     return y_pred, y_proba, y_true
 
-def plot_confusion_matrix(y_test, y_pred, model_name):
+def plot_confusion_matrix(y_true, y_pred, model_name):
     """
-    Plot confusion matrix
+    繪製混淆矩陣，並明確標示 show/no-show
+    """
+    cm = confusion_matrix(y_true, y_pred)
     
-    Parameters:
-    -----------
-    y_test : array-like
-        True labels
-    y_pred : array-like
-        Predicted labels
-    model_name : str
-        Model name for plot title
-    """
-    plt.figure(figsize=(6, 4))
-    sns.heatmap(confusion_matrix(y_test, y_pred), 
-                annot=True, fmt='d', cmap='Blues',
-                xticklabels=['No Show', 'Show'], 
-                yticklabels=['No Show', 'Show'])
-    plt.title(f'Confusion Matrix - {model_name}')
-    plt.xlabel('Predicted')
-    plt.ylabel('Actual')
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+    
+    # 明確標示類別
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
+    
+    # 添加類別標籤
+    tick_labels = ['Show (0)', 'No-show (1)']
+    plt.xticks([0.5, 1.5], tick_labels)
+    plt.yticks([0.5, 1.5], tick_labels)
+    
+    plt.title(f'Confusion Matrix for {model_name}\n')
+    
+    # 添加詳細解釋
+    tn, fp, fn, tp = cm.ravel()
+    plt.figtext(0.02, -0.1, 
+                f"""
+                True Negatives (TN) = {tn}: Predict No-show, Actual No-show
+                False Positives (FP) = {fp}: Predict No-show, Actual Show
+                False Negatives (FN) = {fn}: Predict Show, Actual No-show
+                True Positives (TP) = {tp}: Predict Show, Actual Show
+                
+                No-show Recall = {tp/(tp+fn):.3f}: 正確識別不會來病人的比例
+                """, 
+                fontsize=10)
+    
+    plt.tight_layout()
     plt.show()
 
 def evaluate_threshold(y_test, y_proba, thresholds=None):
