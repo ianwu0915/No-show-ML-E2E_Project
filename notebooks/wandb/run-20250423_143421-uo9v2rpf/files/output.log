@@ -1,0 +1,90 @@
+Epoch 1/30
+Train Loss: 1.2296, Val Loss: 0.9101
+Val Metrics: {'precision': 0.15234159779614326, 'recall': 0.5933476394849786, 'f1': 0.24243752740026303, 'accuracy': np.float64(0.6294628497909296), 'true_positives': np.int64(553), 'false_positives': np.int64(3077), 'true_negatives': np.int64(5318), 'false_negatives': np.int64(379)}
+Epoch 2/30
+Train Loss: 1.2001, Val Loss: 0.9036
+Val Metrics: {'precision': 0.1536050156739812, 'recall': 0.630901287553648, 'f1': 0.24705882352941178, 'accuracy': np.float64(0.6157392516350381), 'true_positives': np.int64(588), 'false_positives': np.int64(3240), 'true_negatives': np.int64(5155), 'false_negatives': np.int64(344)}
+Epoch 3/30
+Train Loss: 1.1786, Val Loss: 0.9007
+Val Metrics: {'precision': 0.15281297516472378, 'recall': 0.6469957081545065, 'f1': 0.24723247232472326, 'accuracy': np.float64(0.6063042779028627), 'true_positives': np.int64(603), 'false_positives': np.int64(3343), 'true_negatives': np.int64(5052), 'false_negatives': np.int64(329)}
+Epoch 4/30
+Train Loss: 1.1640, Val Loss: 0.8908
+Val Metrics: {'precision': 0.1591094216671192, 'recall': 0.628755364806867, 'f1': 0.25395449620801736, 'accuracy': np.float64(0.6308566527286373), 'true_positives': np.int64(586), 'false_positives': np.int64(3097), 'true_negatives': np.int64(5298), 'false_negatives': np.int64(346)}
+Epoch 5/30
+Train Loss: 1.1577, Val Loss: 0.8923
+Val Metrics: {'precision': 0.1529175050301811, 'recall': 0.6523605150214592, 'f1': 0.24775876120619397, 'accuracy': np.float64(0.6041599656910046), 'true_positives': np.int64(608), 'false_positives': np.int64(3368), 'true_negatives': np.int64(5027), 'false_negatives': np.int64(324)}
+Epoch 6/30
+Train Loss: 1.1507, Val Loss: 0.8920
+Val Metrics: {'precision': 0.15845712796455563, 'recall': 0.6523605150214592, 'f1': 0.2549800796812749, 'accuracy': np.float64(0.6190629355634181), 'true_positives': np.int64(608), 'false_positives': np.int64(3229), 'true_negatives': np.int64(5166), 'false_negatives': np.int64(324)}
+Epoch 7/30
+Train Loss: 1.1389, Val Loss: 0.8851
+Val Metrics: {'precision': 0.15988136964141278, 'recall': 0.6362660944206009, 'f1': 0.255548373195432, 'accuracy': np.float64(0.6295700654015225), 'true_positives': np.int64(593), 'false_positives': np.int64(3116), 'true_negatives': np.int64(5279), 'false_negatives': np.int64(339)}
+Epoch 8/30
+Train Loss: 1.1313, Val Loss: 0.8848
+Val Metrics: {'precision': 0.1592847317744154, 'recall': 0.621244635193133, 'f1': 0.2535581344427414, 'accuracy': np.float64(0.6345019834887959), 'true_positives': np.int64(579), 'false_positives': np.int64(3056), 'true_negatives': np.int64(5339), 'false_negatives': np.int64(353)}
+Epoch 9/30
+Train Loss: 1.1201, Val Loss: 0.8857
+Val Metrics: {'precision': 0.15841086245914004, 'recall': 0.6759656652360515, 'f1': 0.2566714198411082, 'accuracy': np.float64(0.6087702369464995), 'true_positives': np.int64(630), 'false_positives': np.int64(3347), 'true_negatives': np.int64(5048), 'false_negatives': np.int64(302)}
+Epoch 10/30
+Train Loss: 1.1227, Val Loss: 0.8790
+Val Metrics: {'precision': 0.17, 'recall': 0.6566523605150214, 'f1': 0.27007943512797883, 'accuracy': np.float64(0.6453307601586791), 'true_positives': np.int64(612), 'false_positives': np.int64(2988), 'true_negatives': np.int64(5407), 'false_negatives': np.int64(320)}
+Epoch 11/30
+Train Loss: 1.1107, Val Loss: 0.8815
+Val Metrics: {'precision': 0.16383393702981333, 'recall': 0.630901287553648, 'f1': 0.2601194426011944, 'accuracy': np.float64(0.6413637825667418), 'true_positives': np.int64(588), 'false_positives': np.int64(3001), 'true_negatives': np.int64(5394), 'false_negatives': np.int64(344)}
+Epoch 12/30
+Train Loss: 1.1053, Val Loss: 0.8774
+Val Metrics: {'precision': 0.16709881878421204, 'recall': 0.6223175965665236, 'f1': 0.26345673404496933, 'accuracy': np.float64(0.6522997748472178), 'true_positives': np.int64(580), 'false_positives': np.int64(2891), 'true_negatives': np.int64(5504), 'false_negatives': np.int64(352)}
+Epoch 13/30
+Train Loss: 1.1011, Val Loss: 0.8857
+Val Metrics: {'precision': 0.15890555117074454, 'recall': 0.648068669527897, 'f1': 0.25522924149588, 'accuracy': np.float64(0.6220649726600193), 'true_positives': np.int64(604), 'false_positives': np.int64(3197), 'true_negatives': np.int64(5198), 'false_negatives': np.int64(328)}
+Epoch 14/30
+Train Loss: 1.0973, Val Loss: 0.8786
+Val Metrics: {'precision': 0.16507763552165622, 'recall': 0.6502145922746781, 'f1': 0.2633065392135564, 'accuracy': np.float64(0.6364318644794682), 'true_positives': np.int64(606), 'false_positives': np.int64(3065), 'true_negatives': np.int64(5330), 'false_negatives': np.int64(326)}
+Epoch 15/30
+Train Loss: 1.0848, Val Loss: 0.8724
+Val Metrics: {'precision': 0.17092789428325195, 'recall': 0.6384120171673819, 'f1': 0.2696578291411738, 'accuracy': np.float64(0.6544440870590758), 'true_positives': np.int64(595), 'false_positives': np.int64(2886), 'true_negatives': np.int64(5509), 'false_negatives': np.int64(337)}
+Epoch 16/30
+Train Loss: 1.0820, Val Loss: 0.8725
+Val Metrics: {'precision': 0.16856745479833102, 'recall': 0.6502145922746781, 'f1': 0.26772697150430746, 'accuracy': np.float64(0.6445802508845287), 'true_positives': np.int64(606), 'false_positives': np.int64(2989), 'true_negatives': np.int64(5406), 'false_negatives': np.int64(326)}
+Epoch 17/30
+Train Loss: 1.0733, Val Loss: 0.8817
+Val Metrics: {'precision': 0.16330696606277112, 'recall': 0.6866952789699571, 'f1': 0.26386312100597814, 'accuracy': np.float64(0.6171330545727458), 'true_positives': np.int64(640), 'false_positives': np.int64(3279), 'true_negatives': np.int64(5116), 'false_negatives': np.int64(292)}
+Epoch 18/30
+Train Loss: 1.0722, Val Loss: 0.8704
+Val Metrics: {'precision': 0.17308240661534074, 'recall': 0.6512875536480687, 'f1': 0.27348501914845685, 'accuracy': np.float64(0.65422965583789), 'true_positives': np.int64(607), 'false_positives': np.int64(2900), 'true_negatives': np.int64(5495), 'false_negatives': np.int64(325)}
+Epoch 19/30
+Train Loss: 1.0604, Val Loss: 0.8685
+Val Metrics: {'precision': 0.1715492957746479, 'recall': 0.6534334763948498, 'f1': 0.2717536813922356, 'accuracy': np.float64(0.6500482470247668), 'true_positives': np.int64(609), 'false_positives': np.int64(2941), 'true_negatives': np.int64(5454), 'false_negatives': np.int64(323)}
+Epoch 20/30
+Train Loss: 1.0595, Val Loss: 0.8622
+Val Metrics: {'precision': 0.17774294670846394, 'recall': 0.6083690987124464, 'f1': 0.27510917030567683, 'accuracy': np.float64(0.6796397555484078), 'true_positives': np.int64(567), 'false_positives': np.int64(2623), 'true_negatives': np.int64(5772), 'false_negatives': np.int64(365)}
+Epoch 21/30
+Train Loss: 1.0499, Val Loss: 0.8611
+Val Metrics: {'precision': 0.17958294428882665, 'recall': 0.619098712446352, 'f1': 0.27840772014475273, 'accuracy': np.float64(0.6793181087166291), 'true_positives': np.int64(577), 'false_positives': np.int64(2636), 'true_negatives': np.int64(5759), 'false_negatives': np.int64(355)}
+Epoch 22/30
+Train Loss: 1.0476, Val Loss: 0.8629
+Val Metrics: {'precision': 0.17433343099912102, 'recall': 0.6384120171673819, 'f1': 0.27387802071346373, 'accuracy': np.float64(0.6617347485793932), 'true_positives': np.int64(595), 'false_positives': np.int64(2818), 'true_negatives': np.int64(5577), 'false_negatives': np.int64(337)}
+Epoch 23/30
+Train Loss: 1.0380, Val Loss: 0.8604
+Val Metrics: {'precision': 0.1773809523809524, 'recall': 0.6394849785407726, 'f1': 0.2777260018639329, 'accuracy': np.float64(0.6676316071620028), 'true_positives': np.int64(596), 'false_positives': np.int64(2764), 'true_negatives': np.int64(5631), 'false_negatives': np.int64(336)}
+Epoch 24/30
+Train Loss: 1.0327, Val Loss: 0.8586
+Val Metrics: {'precision': 0.1789156626506024, 'recall': 0.6373390557939914, 'f1': 0.2793979303857008, 'accuracy': np.float64(0.6714913691433473), 'true_positives': np.int64(594), 'false_positives': np.int64(2726), 'true_negatives': np.int64(5669), 'false_negatives': np.int64(338)}
+Epoch 25/30
+Train Loss: 1.0393, Val Loss: 0.8549
+Val Metrics: {'precision': 0.1785824822036521, 'recall': 0.619098712446352, 'f1': 0.2772039394667307, 'accuracy': np.float64(0.6773882277259569), 'true_positives': np.int64(577), 'false_positives': np.int64(2654), 'true_negatives': np.int64(5741), 'false_negatives': np.int64(355)}
+Epoch 26/30
+Train Loss: 1.0266, Val Loss: 0.8548
+Val Metrics: {'precision': 0.18156424581005587, 'recall': 0.6276824034334764, 'f1': 0.28165623495426095, 'accuracy': np.float64(0.6800686179907794), 'true_positives': np.int64(585), 'false_positives': np.int64(2637), 'true_negatives': np.int64(5758), 'false_negatives': np.int64(347)}
+Epoch 27/30
+Train Loss: 1.0196, Val Loss: 0.8543
+Val Metrics: {'precision': 0.1773747310175223, 'recall': 0.619098712446352, 'f1': 0.2757467144563919, 'accuracy': np.float64(0.6750294842929131), 'true_positives': np.int64(577), 'false_positives': np.int64(2676), 'true_negatives': np.int64(5719), 'false_negatives': np.int64(355)}
+Epoch 28/30
+Train Loss: 1.0117, Val Loss: 0.8518
+Val Metrics: {'precision': 0.17920287683548097, 'recall': 0.6416309012875536, 'f1': 0.28015928788943545, 'accuracy': np.float64(0.6705264286480112), 'true_positives': np.int64(598), 'false_positives': np.int64(2739), 'true_negatives': np.int64(5656), 'false_negatives': np.int64(334)}
+Epoch 29/30
+Train Loss: 1.0065, Val Loss: 0.8474
+Val Metrics: {'precision': 0.18032786885245902, 'recall': 0.6137339055793991, 'f1': 0.2787524366471735, 'accuracy': np.float64(0.6826417926450091), 'true_positives': np.int64(572), 'false_positives': np.int64(2600), 'true_negatives': np.int64(5795), 'false_negatives': np.int64(360)}
+Epoch 30/30
+Train Loss: 1.0071, Val Loss: 0.8483
+Val Metrics: {'precision': 0.17870843989769822, 'recall': 0.5997854077253219, 'f1': 0.27536945812807884, 'accuracy': np.float64(0.6845716736356814), 'true_positives': np.int64(559), 'false_positives': np.int64(2569), 'true_negatives': np.int64(5826), 'false_negatives': np.int64(373)}

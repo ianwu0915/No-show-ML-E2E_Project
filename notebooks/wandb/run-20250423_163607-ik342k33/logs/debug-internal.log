@@ -1,0 +1,16 @@
+{"time":"2025-04-23T16:36:07.90245-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/ianwu/Desktop/NEU/Maching_Learning/ML_Project/notebooks/wandb/run-20250423_163607-ik342k33/logs/debug-core.log"}
+{"time":"2025-04-23T16:36:08.103655-05:00","level":"INFO","msg":"created new stream","id":"ik342k33"}
+{"time":"2025-04-23T16:36:08.103703-05:00","level":"INFO","msg":"stream: started","id":"ik342k33"}
+{"time":"2025-04-23T16:36:08.103779-05:00","level":"INFO","msg":"handler: started","stream_id":"ik342k33"}
+{"time":"2025-04-23T16:36:08.103775-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"ik342k33"}
+{"time":"2025-04-23T16:36:08.103821-05:00","level":"INFO","msg":"sender: started","stream_id":"ik342k33"}
+{"time":"2025-04-23T16:36:08.228888-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-23T16:37:05.936508-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-23T16:37:05.936734-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-23T16:37:06.946374-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading best_model_ik342k33.pth","runtime_seconds":0.040622083,"progress":"257.0KB/257.0KB"}],"total_operations":1}}
+{"time":"2025-04-23T16:37:07.117672-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-23T16:37:07.294814-05:00","level":"INFO","msg":"stream: closing","id":"ik342k33"}
+{"time":"2025-04-23T16:37:07.294874-05:00","level":"INFO","msg":"handler: closed","stream_id":"ik342k33"}
+{"time":"2025-04-23T16:37:07.294898-05:00","level":"INFO","msg":"sender: closed","stream_id":"ik342k33"}
+{"time":"2025-04-23T16:37:07.295154-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ik342k33"}
+{"time":"2025-04-23T16:37:07.295184-05:00","level":"INFO","msg":"stream: closed","id":"ik342k33"}
