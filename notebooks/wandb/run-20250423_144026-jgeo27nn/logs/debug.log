@@ -1,0 +1,30 @@
+2025-04-23 14:40:26,075 INFO    MainThread:96676 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/ianwu/Desktop/NEU/Maching_Learning/ML_Project/notebooks/wandb/run-20250423_144026-jgeo27nn/logs/debug.log
+2025-04-23 14:40:26,076 INFO    MainThread:96676 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/ianwu/Desktop/NEU/Maching_Learning/ML_Project/notebooks/wandb/run-20250423_144026-jgeo27nn/logs/debug-internal.log
+2025-04-23 14:40:26,076 INFO    MainThread:96676 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x17145bd40>
+2025-04-23 14:40:26,076 INFO    MainThread:96676 [wandb_init.py:init():852] calling init triggers
+2025-04-23 14:40:26,076 INFO    MainThread:96676 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'weight_decay': 0.01, 'batch_size': 64, 'hidden_dims': [512, 256, 128, 64], 'dropout_rates': [0.5, 0.4, 0.3, 0.2], 'epochs': 30, 'patience': 15, 'pos_weight': 9.007510729613735, '_wandb': {}}
+2025-04-23 14:40:26,076 INFO    MainThread:96676 [wandb_init.py:init():893] starting backend
+2025-04-23 14:40:26,076 INFO    MainThread:96676 [wandb_init.py:init():897] sending inform_init request
+2025-04-23 14:40:26,078 INFO    MainThread:96676 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-04-23 14:40:26,079 INFO    MainThread:96676 [wandb_init.py:init():907] backend started and connected
+2025-04-23 14:40:26,103 INFO    MainThread:96676 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-04-23 14:40:26,104 INFO    MainThread:96676 [wandb_init.py:init():1002] updated telemetry
+2025-04-23 14:40:26,125 INFO    MainThread:96676 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-04-23 14:40:26,471 INFO    MainThread:96676 [wandb_init.py:init():1101] starting run threads in backend
+2025-04-23 14:40:26,623 INFO    MainThread:96676 [wandb_run.py:_console_start():2566] atexit reg
+2025-04-23 14:40:26,623 INFO    MainThread:96676 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-04-23 14:40:26,623 INFO    MainThread:96676 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-04-23 14:40:26,623 INFO    MainThread:96676 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-04-23 14:40:26,624 INFO    MainThread:96676 [wandb_init.py:init():1147] run started, returning control to user process
+2025-04-23 14:40:26,744 INFO    MainThread:96676 [wandb_watch.py:_watch():71] Watching
+2025-04-23 14:43:15,282 INFO    MainThread:96676 [wandb_run.py:_finish():2314] finishing run killabcd6-northeastern-university/no_show_prediction/jgeo27nn
+2025-04-23 14:43:15,284 INFO    MainThread:96676 [jupyter.py:save_history():477] not saving jupyter history
+2025-04-23 14:43:15,284 INFO    MainThread:96676 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-04-23 14:43:15,284 INFO    MainThread:96676 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-04-23 14:43:15,284 INFO    MainThread:96676 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-04-23 14:43:15,284 INFO    MainThread:96676 [wandb_run.py:_restore():2513] restore
+2025-04-23 14:43:15,285 INFO    MainThread:96676 [wandb_run.py:_restore():2519] restore done
+2025-04-23 14:43:16,294 INFO    MainThread:96676 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-04-23 14:43:16,295 INFO    MainThread:96676 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-04-23 14:43:16,296 INFO    MainThread:96676 [wandb_run.py:_footer_sync_info():4121] logging synced files

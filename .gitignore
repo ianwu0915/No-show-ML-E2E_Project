@@ -1,4 +1,8 @@
 venv/
 __pycache__/
 *.ipynb_checkpoints
-notebooks/wandb/
+notebooks/wandb/*.wandb
+data/*.csv
+.DS_Store
+.ipynb_checkpoints/
+notebooks/**/.ipynb_checkpoints/

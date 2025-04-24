@@ -1,0 +1,24 @@
+2025-04-23 14:27:45,793 INFO    MainThread:95899 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/ianwu/Desktop/NEU/Maching_Learning/ML_Project/notebooks/wandb/run-20250423_142745-o3d6z1y2/logs/debug.log
+2025-04-23 14:27:45,793 INFO    MainThread:95899 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/ianwu/Desktop/NEU/Maching_Learning/ML_Project/notebooks/wandb/run-20250423_142745-o3d6z1y2/logs/debug-internal.log
+2025-04-23 14:27:45,793 INFO    MainThread:95899 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x105e88dd0>
+2025-04-23 14:27:45,793 INFO    MainThread:95899 [wandb_init.py:init():852] calling init triggers
+2025-04-23 14:27:45,793 INFO    MainThread:95899 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'weight_decay': 0.01, 'batch_size': 64, 'hidden_dims': [256, 128, 64], 'dropout_rates': [0.4, 0.3, 0.2], 'epochs': 30, 'patience': 10, 'pos_weight': 9.007510729613735, '_wandb': {}}
+2025-04-23 14:27:46,325 INFO    MainThread:95899 [wandb_init.py:init():893] starting backend
+2025-04-23 14:27:46,325 INFO    MainThread:95899 [wandb_init.py:init():897] sending inform_init request
+2025-04-23 14:27:46,326 INFO    MainThread:95899 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-04-23 14:27:46,326 INFO    MainThread:95899 [wandb_init.py:init():907] backend started and connected
+2025-04-23 14:27:46,329 INFO    MainThread:95899 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-04-23 14:27:46,330 INFO    MainThread:95899 [wandb_init.py:init():1002] updated telemetry
+2025-04-23 14:27:46,362 INFO    MainThread:95899 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-04-23 14:27:46,729 INFO    MainThread:95899 [wandb_init.py:init():1101] starting run threads in backend
+2025-04-23 14:27:46,819 INFO    MainThread:95899 [wandb_run.py:_console_start():2566] atexit reg
+2025-04-23 14:27:46,819 INFO    MainThread:95899 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-04-23 14:27:46,819 INFO    MainThread:95899 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-04-23 14:27:46,819 INFO    MainThread:95899 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-04-23 14:27:46,820 INFO    MainThread:95899 [wandb_init.py:init():1147] run started, returning control to user process
+2025-04-23 14:27:46,896 INFO    MainThread:95899 [wandb_watch.py:_watch():71] Watching
+2025-04-23 14:27:53,206 INFO    MainThread:95899 [wandb_init.py:_post_run_cell_hook():613] [no run ID] resuming backend
+2025-04-23 14:31:01,854 INFO    MainThread:95899 [jupyter.py:save_ipynb():401] [no run ID] not saving jupyter notebook
+2025-04-23 14:31:01,857 INFO    MainThread:95899 [wandb_init.py:_pre_run_cell_hook():602] [no run ID] pausing backend
+2025-04-23 14:31:01,861 INFO    MainThread:95899 [wandb_init.py:_post_run_cell_hook():613] [no run ID] resuming backend
