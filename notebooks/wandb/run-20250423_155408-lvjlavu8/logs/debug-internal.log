@@ -1,7 +1,0 @@
-{"time":"2025-04-23T15:54:08.427812-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/ianwu/Desktop/NEU/Maching_Learning/ML_Project/notebooks/wandb/run-20250423_155408-lvjlavu8/logs/debug-core.log"}
-{"time":"2025-04-23T15:54:08.632185-05:00","level":"INFO","msg":"created new stream","id":"lvjlavu8"}
-{"time":"2025-04-23T15:54:08.632529-05:00","level":"INFO","msg":"stream: started","id":"lvjlavu8"}
-{"time":"2025-04-23T15:54:08.632732-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"lvjlavu8"}
-{"time":"2025-04-23T15:54:08.632741-05:00","level":"INFO","msg":"handler: started","stream_id":"lvjlavu8"}
-{"time":"2025-04-23T15:54:08.632872-05:00","level":"INFO","msg":"sender: started","stream_id":"lvjlavu8"}
-{"time":"2025-04-23T15:54:08.782907-05:00","level":"INFO","msg":"Starting system monitor"}
