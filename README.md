@@ -59,7 +59,7 @@ This project aims to predict whether a patient will show up for their medical ap
 
 ## 📦 Requirements
 
-- Python 3.8+
+- Python 3.12.7
 - [PyTorch](https://pytorch.org/)
 - [Scikit-learn](https://scikit-learn.org/)
 - [XGBoost](https://xgboost.readthedocs.io/)
