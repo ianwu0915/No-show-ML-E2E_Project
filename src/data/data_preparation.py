@@ -41,4 +41,5 @@ def prepare_data(X, y, numerical_features):
         random_state=42
     )
     
+    
     return X_train, X_test, y_train, y_test 

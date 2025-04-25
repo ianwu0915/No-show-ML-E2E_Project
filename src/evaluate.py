@@ -32,6 +32,7 @@ def evaluate_model(y_test, y_pred, y_pred_proba, model_name="Model"):
         'false_negatives': fn
     }
     plot_confusion_matrix(y_test, y_pred, model_name)
+    print("--------------------------------")
     print(classification_report(y_test, y_pred))
     print("roc_auc: ", roc_auc)
     
@@ -68,34 +69,35 @@ def plot_confusion_matrix(y_true, y_pred, model_name):
     """
     cm = confusion_matrix(y_true, y_pred)
     
-    plt.figure(figsize=(10, 8))
+    plt.figure(figsize=(8, 8))
+    
+    plt.subplot(111)
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
     
-    # 明確標示類別
     plt.ylabel('True Label')
     plt.xlabel('Predicted Label')
     
-    # 添加類別標籤
     tick_labels = ['Show (0)', 'No-show (1)']
     plt.xticks([0.5, 1.5], tick_labels)
     plt.yticks([0.5, 1.5], tick_labels)
     
     plt.title(f'Confusion Matrix for {model_name}\n')
     
-    # 添加詳細解釋
+    # 修改文字格式，使用單行字符串並調整對齊
     tn, fp, fn, tp = cm.ravel()
-    plt.figtext(0.02, -0.1, 
-                f"""
-                True Negatives (TN) = {tn}: Predict No-show, Actual No-show
-                False Positives (FP) = {fp}: Predict No-show, Actual Show
-                False Negatives (FN) = {fn}: Predict Show, Actual No-show
-                True Positives (TP) = {tp}: Predict Show, Actual Show
-                
-                No-show Recall = {tp/(tp+fn):.3f}: 正確識別不會來病人的比例
-                """, 
-                fontsize=10)
+    explanation_text = (
+        f"True Negatives (TN) = {tn}: Predict No-show, Actual No-show\n"
+        f"False Positives (FP) = {fp}: Predict No-show, Actual Show\n"
+        f"False Negatives (FN) = {fn}: Predict Show, Actual No-show\n"
+        f"True Positives (TP) = {tp}: Predict Show, Actual Show\n\n"
+        f"No-show Recall = {tp/(tp+fn):.3f}: Correctly identify the proportion of patients who will not show up"
+    )
+    
+    plt.figtext(0.02, 0.02, explanation_text, fontsize=10, va='bottom')
     
     plt.tight_layout()
+    plt.subplots_adjust(bottom=0.25)
+    
     plt.show()
 
 def evaluate_threshold(y_test, y_proba, thresholds=None):

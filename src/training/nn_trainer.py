@@ -107,8 +107,8 @@ def run_nn_pipeline(X, y, numerical_features, config=None):
         scheduler.step(val_loss)
         
         # Early stopping and model saving
-        if metrics['f1'] > best_f1:
-            best_f1 = metrics['f1']
+        if metrics['recall'] > best_f1:
+            best_f1 = metrics['recall']
             
             # Save best model
             best_model_state = model.state_dict().copy()
@@ -193,7 +193,7 @@ def run_nn_pipeline(X, y, numerical_features, config=None):
     print(f"Recall: {best_metrics['recall']:.3f}")
     
     wandb.finish()
-    return model, best_threshold, best_metrics
+    return model, best_threshold, best_metrics, val_probs, val_labels
 
 def train_epoch(model, train_loader, criterion, optimizer, device):
     """Train one epoch"""
