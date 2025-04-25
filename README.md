@@ -22,7 +22,7 @@ This project aims to predict whether a patient will show up for their medical ap
    - `01_eda.ipynb`: Data Exploration
    - `02_data_preprocessing.ipynb`: Data Cleaning and Feature Engineering
    - `03_model_development.ipynb`: Model Training and Comparison
-   - `04_nn_experiment.ipynb`: Deep Learning Experiments
+   - `04_nn_experiment.ipynb`: (Included into 03)
 
 ---
 
